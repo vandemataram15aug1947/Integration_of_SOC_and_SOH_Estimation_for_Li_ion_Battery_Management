@@ -1,4 +1,4 @@
-# Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management
+![image](https://github.com/user-attachments/assets/2c0d62d3-127a-433a-8f17-f1ed0b9d71a2)![image](https://github.com/user-attachments/assets/4bb37355-ce2c-46ce-9796-fbe32e4d6740)# Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management
 
 # Integration of SOC and SOH Estimation for Li-ion Battery Management
 
@@ -22,8 +22,6 @@ This project focuses on the **integration of SOC and SOH estimation methods for 
 
 ---
 
-## ⚡ **What are SOC, SOH, and DOD?**
-
 ### 💪 **State of Charge (SOC)**
 
 The **State of Charge (SOC)** of a battery indicates the available energy compared to a fully charged battery. It is calculated as:
@@ -37,9 +35,9 @@ Where:
 - **Qₘₐₓ (mAh)** = Maximum charge that can be stored
 - **SoC₀ (%)** = Initial SOC of the battery
 
-![Alt Text](path-to-image.png)
+![Alt Text](https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOC.gif)
 
-Figure 1: This is the caption for the image.
+Figure 1: SOC
 
 If the battery is new:
 \(Q_{max} = C_r, \quad Q_0 = 0.5 Q_{max}\)
@@ -60,11 +58,27 @@ Where:
 - **Qₘₐₓ (mAh)** = Maximum charge available in the battery
 - **Cᵜ** = Rated capacity
 
-![Alt Text](path-to-image.png)
+![Alt Text](https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOH.gif)
 
-Figure 1: This is the caption for the image.
+Figure 1: SOH
 
 A battery with lower SOH will discharge more quickly due to degradation, affecting performance and lifespan.
+
+### 🏥 **Continued……!!**
+
+The discharge profile of a secondary battery is affected by its state of health. The lower the SoH, the faster the battery is discharged as it is illustrated in the Figure 3 below:
+
+![Alt Text](https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/Charge%20and%20Discharge.gif)
+
+Figure 1: Charge and Discharge
+
+Performance Optimization: Accurate estimation of SOC, SOH, and DOD enables intelligent battery management systems to optimize charging and discharging strategies, enhancing overall battery performance.
+
+Safety: Understanding the current state of a battery is crucial for ensuring safe operation. Overcharging, over-discharging, and prolonged operation at extreme SOC levels can lead to safety hazards, including thermal runaway.
+
+Energy Efficiency: In applications such as renewable energy storage and electric vehicles, knowing the SOC and DOD helps in efficient utilization of stored energy, reducing waste and increasing overall energy efficiency.
+
+
 
 ---
 
@@ -97,9 +111,9 @@ The hardware setup for this project includes:
 - **Sensors**: To measure charge/discharge cycles
 - **Communication Interface**: For data logging and monitoring
 
-  ![Alt Text](path-to-image.png)
+  ![Alt Text](https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/Hardware%20Setup.jpg)
 
-Figure 1: This is the caption for the image.
+Figure 1: Hardware Setup
 
 ---
 
