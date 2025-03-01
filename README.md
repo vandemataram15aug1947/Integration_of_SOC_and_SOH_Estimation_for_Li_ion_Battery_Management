@@ -121,8 +121,8 @@ The hardware setup for this project includes:
 
 ## **3. Code Implementation**
 
-### **Main Loop for Motor Speed Control using PWM and PID**
-Below is the main loop implementation for controlling the motor speed using a PID controller and PWM:
+### **Main Loop for SOC and SOH*
+Below is the main loop implementation for  for SOC and SOH:
 
 ```c
 // For IOT
