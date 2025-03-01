@@ -107,9 +107,11 @@ The hardware setup for this project includes:
 - **Sensors**: To measure charge/discharge cycles
 - **Communication Interface**: For data logging and monitoring
 
-  ![Alt Text](https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/Hardware%20Setup.jpg)
+<p align="center">
+  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/Hardware%20Setup.jpg" width="500">
+</p>  
 
-Figure 1: Hardware Setup
+<p align="center"><b>Figure 3:</b> Hardware Setup</p>  
 
 ---
 
