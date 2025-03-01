@@ -50,7 +50,7 @@ SOC is usually represented as a percentage (%) ranging from **0% (fully discharg
 When the battery is new and has not undergone any degradation, the maximum charge capacity (`Qₘₐₓ`) is equal to the rated capacity (`Cᵜ`) as provided by the manufacturer. Additionally, the initial charge of a new battery is typically assumed to be **50%** of its full capacity.
 
 ```math
-Q_{max} = C_r, \quad Q_0 = 0.5 \times Q_{max}
+SoC(%) = 100 × (Q₀ + Q) / Qₘₐₓ
 ```
 
 ### 2️⃣ For a Fully Charged Battery
