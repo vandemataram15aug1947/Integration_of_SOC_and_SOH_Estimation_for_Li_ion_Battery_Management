@@ -20,63 +20,110 @@ This project focuses on the **Integration of SOC and SOH Estimation Methods for 
 
 ---
 
-### 💪 **State of Charge (SOC)**
+# 🔋 State of Charge (SOC) of a Battery
 
-The **State of Charge (SOC)** of a battery indicates the available energy compared to a fully charged battery. It is calculated as:
+The **State of Charge (SOC)** represents the remaining energy in a battery compared to its fully charged state. It is an essential parameter for estimating battery health and performance in various applications, such as electric vehicles, renewable energy storage, and battery management systems (BMS).
 
-\(SoC(\%) = 100 \times \frac{Q_0 + Q}{Q_{max}}\)
+## 📌 SOC Calculation Formula
 
-Where:
+The SOC is mathematically expressed as:
 
-- **Q₀ (mAh)** = Initial charge of the battery
-- **Q (mAh)** = Charge delivered or supplied (negative for discharge, positive for charge)
-- **Qₘₐₓ (mAh)** = Maximum charge that can be stored
-- **SoC₀ (%)** = Initial SOC of the battery
+```math
+SoC(%) = 100 \times \frac{Q_0 + Q}{Q_{max}}
+```
+
+where:
+- **`Q₀ (mAh)`** = Initial charge of the battery at a given time
+- **`Q (mAh)`** = Charge supplied or delivered (*negative for discharge, positive for charge*)
+- **`Qₘₐₓ (mAh)`** = Maximum charge capacity of the battery
+- **`SoC₀ (%)`** = Initial SOC of the battery before any charging/discharging occurs
+
+SOC is usually represented as a percentage (%) ranging from **0% (fully discharged)** to **100% (fully charged)**.
+
+---
+
+## 📌 Special Cases of SOC Calculation
+
+### 1️⃣ For a Brand-New Battery
+When the battery is new and has not undergone any degradation, the maximum charge capacity (`Qₘₐₓ`) is equal to the rated capacity (`Cᵜ`) as provided by the manufacturer. Additionally, the initial charge of a new battery is typically assumed to be **50%** of its full capacity.
+
+```math
+Q_{max} = C_r, \quad Q_0 = 0.5 \times Q_{max}
+```
+
+### 2️⃣ For a Fully Charged Battery
+When the battery is completely charged, its initial charge is equal to its maximum charge capacity, and the SOC is **100%**.
+
+```math
+Q_0 = Q_{max}, \quad SoC_0 = 100\%
+```
+
+---
+
+## 📌 SOC Representation
 
 <p align="center">
-  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOC.gif" width="200">
-</p>  
+  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOC.gif" width="250">
+</p>
 
-<p align="center"><b>Figure 1:</b> State of Charge (SOC)</p>  
+<p align="center"><b>Figure 1:</b> Illustration of Battery State of Charge (SOC)</p>
 
-If the battery is new:
-\(Q_{max} = C_r, \quad Q_0 = 0.5 Q_{max}\)
-Where **Cᵜ** is the rated capacity as given by the manufacturer.
+---
 
-If the battery is fully charged:
-\(Q_0 = Q_{max}, \quad SoC_0 = 100\%\)
+## 📌 Importance of SOC Estimation
 
+✔️ **Battery Performance Monitoring:** Helps in tracking available energy.  
+✔️ **Efficient Energy Management:** Essential for optimizing power usage in EVs and energy storage systems.  
+✔️ **Battery Safety & Longevity:** Prevents overcharging and deep discharging, which can damage battery cells.  
+✔️ **Smart Charging Control:** Enables precise charge/discharge cycles to maximize battery efficiency.  
 
-### 🏥 **State of Health (SOH)**
+---
 
-The **State of Health (SOH)** measures the condition of a battery compared to a new one and considers aging effects. It is defined as:
+# 🏥 State of Health (SOH) of a Battery
 
-\(SoH(\%) = 100 \times \frac{Q_{max}}{C_r}\)
+The **State of Health (SOH)** measures the condition of a battery compared to a new one and considers aging effects. It is a crucial parameter in determining battery performance, degradation, and lifespan.
 
-Where:
+## 📌 SOH Calculation Formula
 
-- **Qₘₐₓ (mAh)** = Maximum charge available in the battery
-- **Cᵜ** = Rated capacity
+The SOH is mathematically expressed as:
+
+```math
+SoH(%) = 100 \times \frac{Q_{max}}{C_r}
+```
+
+where:
+- **`Qₘₐₓ (mAh)`** = Maximum charge available in the battery
+- **`Cᵜ`** = Rated capacity of the battery
+
+SOH is usually represented as a percentage (%), where **100% represents a new battery**, and a lower SOH indicates degradation.
+
+---
+
+## 📌 SOH Representation
 
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOH.gif" width="300">
-</p>  
+</p>
 
-<p align="center"><b>Figure 2:</b> State of Health (SOH)</p>  
+<p align="center"><b>Figure 2:</b> Illustration of Battery State of Health (SOH)</p>
 
 A battery with lower SOH will discharge more quickly due to degradation, affecting performance and lifespan.
 
-The discharge profile of a secondary battery is affected by its state of health. The lower the SoH, the faster the battery is discharged, as illustrated in **Figure 3** below:  
+The discharge profile of a secondary battery is affected by its state of health. The lower the SOH, the faster the battery discharges, as illustrated in **Figure 3** below:
 
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/Charge%20and%20Discharge.gif" width="300">
-</p>  
+</p>
 
-<p align="center"><b>Figure 3:</b> Charge and Discharge</p>  
+<p align="center"><b>Figure 3:</b> Charge and Discharge</p>
 
-- **Performance Optimization:** Accurate estimation of SOC, SOH, and DOD enables intelligent battery management systems to optimize charging and discharging strategies, enhancing overall battery performance.  
-- **Safety:** Understanding the current state of a battery is crucial for ensuring safe operation. Overcharging, over-discharging, and prolonged operation at extreme SOC levels can lead to safety hazards, including thermal runaway.  
-- **Energy Efficiency:** In applications such as renewable energy storage and electric vehicles, knowing the SOC and DOD helps in efficient utilization of stored energy, reducing waste and increasing overall energy efficiency.  
+---
+
+## 📌 Importance of SOH Estimation
+
+✔️ **Performance Optimization:** Accurate estimation of SOC, SOH, and Depth of Discharge (DOD) enables intelligent battery management systems to optimize charging and discharging strategies, enhancing overall battery performance.  
+✔️ **Safety:** Understanding the current state of a battery is crucial for ensuring safe operation. Overcharging, over-discharging, and prolonged operation at extreme SOC levels can lead to safety hazards, including thermal runaway.  
+✔️ **Energy Efficiency:** In applications such as renewable energy storage and electric vehicles, knowing the SOC and DOD helps in efficient utilization of stored energy, reducing waste and increasing overall energy efficiency.  
 
 ---
 
