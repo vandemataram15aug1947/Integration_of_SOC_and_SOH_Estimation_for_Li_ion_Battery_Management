@@ -37,7 +37,7 @@ Where:
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOC.gif" width="500">
 </p>  
 
-<p align="center"><b>Figure 3:</b> State of Charge (SOC)</p>  
+<p align="center"><b>Figure 1:</b> State of Charge (SOC)</p>  
 
 If the battery is new:
 \(Q_{max} = C_r, \quad Q_0 = 0.5 Q_{max}\)
@@ -62,11 +62,9 @@ Where:
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOH.gif" width="500">
 </p>  
 
-<p align="center"><b>Figure 3:</b> State of Health (SOH)</p>  
+<p align="center"><b>Figure 2:</b> State of Health (SOH)</p>  
 
 A battery with lower SOH will discharge more quickly due to degradation, affecting performance and lifespan.
-
-### 🏥 **Continued……!!**  
 
 The discharge profile of a secondary battery is affected by its state of health. The lower the SoH, the faster the battery is discharged, as illustrated in **Figure 3** below:  
 
@@ -107,7 +105,7 @@ The hardware setup for this project includes:
 
 - **Battery Pack**: Lithium-ion battery cells
 - **BMS (Battery Management System)**: To monitor voltage, current, and temperature
-- **Microcontroller**: For real-time data processing
+- **Microcontroller or Any Kind of Arduino**: For real-time data processing
 - **Sensors**: To measure charge/discharge cycles
 - **Communication Interface**: For data logging and monitoring
 
@@ -115,7 +113,7 @@ The hardware setup for this project includes:
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/Hardware%20Setup.jpg" width="500">
 </p>  
 
-<p align="center"><b>Figure 3:</b> Hardware Setup</p>  
+<p align="center"><b>Figure 4:</b> Hardware Setup</p>  
 
 ---
 
@@ -130,7 +128,7 @@ This repository presents the analyzed results from the system, highlighting key 
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result1.png" width="500">
 </p>  
 
-<p align="center"><b>Figure 3:</b> Result1</p>  
+<p align="center"><b>Figure 5:</b> Result1</p>  
 
 
 This figure represents **[brief explanation of what the figure shows, e.g., voltage waveform, current response, system behavior]**. It is observed that **[key observation: steady-state response, transient behavior, overshoot, etc.]**.  
@@ -139,7 +137,7 @@ This figure represents **[brief explanation of what the figure shows, e.g., volt
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result2.png" width="500">
 </p>  
 
-<p align="center"><b>Figure 3:</b> Result2</p>  
+<p align="center"><b>Figure 6:</b> Result2</p>  
 
 In this figure, **[describe the behavior seen in the result]**. The system exhibits **[mention stability, fluctuations, tracking accuracy, etc.]**, indicating **[conclusion based on observation]**.  
 
@@ -147,7 +145,7 @@ In this figure, **[describe the behavior seen in the result]**. The system exhib
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result3.png" width="500">
 </p>  
 
-<p align="center"><b>Figure 3:</b> Result3</p>  
+<p align="center"><b>Figure 7:</b> Result3</p>  
 
 This result demonstrates **[explain key insights, e.g., frequency response, harmonic content, performance improvement]**. The system meets **[criteria, such as expected response, efficiency, low THD, etc.]**, confirming **[final takeaway]**.  
 
@@ -157,8 +155,6 @@ The results validate the effectiveness of the implemented control strategy. **[S
 ---  
 
 📌 *For more details, refer to the documentation or contact the project contributors.*
-
-
 
 ## 🚀 **Applications**
 
