@@ -3,7 +3,7 @@
 ## 📚 Contents
 
 - [Introduction](#introduction)
-- [What are SOC, SOH, and DOD?](#what-are-soc-soh-and-dod)
+- [What are SOC and SOH?](#what-are-soc-and-soh)
 - [Motivation Behind the Work](#motivation-behind-the-work)
 - [Objectives of Work](#objectives-of-work)
 - [Hardware Setup](#hardware-setup)
