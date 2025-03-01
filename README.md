@@ -1,4 +1,4 @@
-# Integration of SOC and SOH Estimation for Li-ion Battery Management
+# 🔋 Integration of SOC and SOH Estimation for Li-ion Battery Management
 
 ## 📚 Contents
 
@@ -114,6 +114,70 @@ The hardware setup for this project includes:
 </p>  
 
 <p align="center"><b>Figure 4:</b> Hardware Setup</p>  
+
+---
+
+## 💻 Software Implementation
+
+### **Algorithms**
+#include <Wire.h>
+#include <Adafruit_INA219.h>
+#include <Adafruit_SSD1306.h>
+#include <SD.h>
+
+Adafruit_INA219 ina219;
+Adafruit_SSD1306 display(128, 64, &Wire);
+
+float SOC = 50.0;       // Initial SOC (%)
+float Q_max_initial = 2600.0; // Rated capacity (mAh)
+float Q_max = Q_max_initial;
+float SOH = 100.0;      // Initial SOH (%)
+unsigned long prevTime = 0;
+
+void setup() {
+  Serial.begin(9600);
+  ina219.begin();
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
+  display.clearDisplay();
+  if (!SD.begin(4)) Serial.println("SD Card Error");
+}
+
+void loop() {
+  // Read current and voltage
+  float current_mA = ina219.getCurrent_mA();
+  float voltage_V = ina219.getBusVoltage_V();
+
+  // Update SOC (Coulomb Counting)
+  unsigned long currTime = millis();
+  float deltaTime = (currTime - prevTime) / 3600000.0; // Convert ms to hours
+  SOC -= (current_mA * deltaTime) / Q_max * 100;
+  SOC = constrain(SOC, 0, 100);
+
+  // Update SOH (Simulated degradation)
+  static int cycleCount = 0;
+  cycleCount++;
+  Q_max = Q_max_initial * (1 - 0.001 * cycleCount); // 0.1% loss per cycle
+  SOH = (Q_max / Q_max_initial) * 100;
+
+  // Display on OLED
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setCursor(0,0);
+  display.print("SOC: "); display.print(SOC); display.println("%");
+  display.print("SOH: "); display.print(SOH); display.println("%");
+  display.display();
+
+  // Log to SD Card
+  File dataFile = SD.open("datalog.txt", FILE_WRITE);
+  if (dataFile) {
+    dataFile.print("SOC: "); dataFile.print(SOC);
+    dataFile.print(", SOH: "); dataFile.println(SOH);
+    dataFile.close();
+  }
+
+  prevTime = currTime;
+  delay(1000);
+}
 
 ---
 
