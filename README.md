@@ -863,10 +863,11 @@ Contributions are welcome! Feel free to open an **issue** or submit a **pull req
 
 # **License**
 This project is licensed under the [MIT License](LICENSE).
-
-
 ---
 
+📌 **Author**: [Vande]  
+📌 **License**: MIT  
+📌 **Contributions**: Open to suggestions and improvements! Feel free to submit PRs or open issues. 🚀
 
 
 
