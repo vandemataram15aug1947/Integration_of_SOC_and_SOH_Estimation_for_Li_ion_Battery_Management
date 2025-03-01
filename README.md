@@ -64,21 +64,19 @@ Figure 1: SOH
 
 A battery with lower SOH will discharge more quickly due to degradation, affecting performance and lifespan.
 
-### 🏥 **Continued……!!**
+### 🏥 **Continued……!!**  
 
-The discharge profile of a secondary battery is affected by its state of health. The lower the SoH, the faster the battery is discharged as it is illustrated in the Figure 3 below:
+The discharge profile of a secondary battery is affected by its state of health. The lower the SoH, the faster the battery is discharged, as illustrated in **Figure 3** below:  
 
-![Alt Text](https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/Charge%20and%20Discharge.gif)
+<p align="center">
+  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/Charge%20and%20Discharge.gif" width="500">
+</p>  
 
-Figure 1: Charge and Discharge
+<p align="center"><b>Figure 3:</b> Charge and Discharge</p>  
 
-Performance Optimization: Accurate estimation of SOC, SOH, and DOD enables intelligent battery management systems to optimize charging and discharging strategies, enhancing overall battery performance.
-
-Safety: Understanding the current state of a battery is crucial for ensuring safe operation. Overcharging, over-discharging, and prolonged operation at extreme SOC levels can lead to safety hazards, including thermal runaway.
-
-Energy Efficiency: In applications such as renewable energy storage and electric vehicles, knowing the SOC and DOD helps in efficient utilization of stored energy, reducing waste and increasing overall energy efficiency.
-
-
+- **Performance Optimization:** Accurate estimation of SOC, SOH, and DOD enables intelligent battery management systems to optimize charging and discharging strategies, enhancing overall battery performance.  
+- **Safety:** Understanding the current state of a battery is crucial for ensuring safe operation. Overcharging, over-discharging, and prolonged operation at extreme SOC levels can lead to safety hazards, including thermal runaway.  
+- **Energy Efficiency:** In applications such as renewable energy storage and electric vehicles, knowing the SOC and DOD helps in efficient utilization of stored energy, reducing waste and increasing overall energy efficiency.  
 
 ---
 
