@@ -117,9 +117,7 @@ The hardware setup for this project includes:
 
 ---
 
-# **Software Implementation**
-
-## **3. Code Implementation**
+# **Code Implementation**
 
 ### **Main Loop for SOC and SOH*
 Below is the main loop implementation for  for SOC and SOH:
