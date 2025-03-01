@@ -50,7 +50,7 @@ SOC is usually represented as a percentage (%) ranging from **0% (fully discharg
 When the battery is new and has not undergone any degradation, the maximum charge capacity (`Qₘₐₓ`) is equal to the rated capacity (`Cᵜ`) as provided by the manufacturer. Additionally, the initial charge of a new battery is typically assumed to be **50%** of its full capacity.
 
 ```math
-SoC(%) = 100 × (Q₀ + Q) / Qₘₐₓ
+Q_{max} = C_r, \quad Q_0 = 0.5 \times Q_{max}
 ```
 
 ### 2️⃣ For a Fully Charged Battery
@@ -110,17 +110,6 @@ The discharge profile of a secondary battery is affected by its state of health.
 ✔️ **Performance Optimization:** Accurate estimation of SOC, SOH, and Depth of Discharge (DOD) enables intelligent battery management systems to optimize charging and discharging strategies, enhancing overall battery performance.\
 ✔️ **Safety:** Understanding the current state of a battery is crucial for ensuring safe operation. Overcharging, over-discharging, and prolonged operation at extreme SOC levels can lead to safety hazards, including thermal runaway.\
 ✔️ **Energy Efficiency:** In applications such as renewable energy storage and electric vehicles, knowing the SOC and DOD helps in efficient utilization of stored energy, reducing waste and increasing overall energy efficiency.
-
----
-
-## 📌 Conclusion
-
-The **State of Charge (SOC) and State of Health (SOH)** are fundamental parameters in battery management. Accurately estimating them helps in improving battery life, optimizing performance, and ensuring safe operation.
-
-💡 **Stay tuned for more insights on SOC, SOH, and advanced battery management techniques!** 🚀
-
-
-
 ---
 
 ## 🎯 **Motivation Behind the Work**
