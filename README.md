@@ -69,7 +69,7 @@ A battery with lower SOH will discharge more quickly due to degradation, affecti
 The discharge profile of a secondary battery is affected by its state of health. The lower the SoH, the faster the battery is discharged, as illustrated in **Figure 3** below:  
 
 <p align="center">
-  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/Charge%20and%20Discharge.gif" width="500">
+  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/Charge%20and%20Discharge.gif" width="300">
 </p>  
 
 <p align="center"><b>Figure 3:</b> Charge and Discharge</p>  
