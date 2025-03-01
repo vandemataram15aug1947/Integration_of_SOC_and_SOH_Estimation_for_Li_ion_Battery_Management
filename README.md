@@ -794,27 +794,27 @@ This section presents the analyzed results from the system, highlighting key obs
 
 ### **Results and Observations**
 
-#### **Figure 5: System Performance Analysis**  
-
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result1.png" width="500">
 </p>
 
-This figure represents **[brief explanation of what the figure shows, e.g., voltage waveform, current response, system behavior]**. It is observed that **[key observation: steady-state response, transient behavior, overshoot, etc.]**.  
+<p align="center"><b>Figure 5:</b> System Performance Analysis</p>  
 
-#### **Figure 6: Stability and Tracking Performance**  
+This figure represents **[brief explanation of what the figure shows, e.g., voltage waveform, current response, system behavior]**. It is observed that **[key observation: steady-state response, transient behavior, overshoot, etc.]**.  
 
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result2.png" width="500">
 </p>
 
-In this figure, **[describe the behavior seen in the result]**. The system exhibits **[mention stability, fluctuations, tracking accuracy, etc.]**, indicating **[conclusion based on observation]**.  
+<p align="center"><b>Figure 6:</b> Stability and Tracking Performance</p>  
 
-#### **Figure 7: Frequency Response and Performance Validation**  
+In this figure, **[describe the behavior seen in the result]**. The system exhibits **[mention stability, fluctuations, tracking accuracy, etc.]**, indicating **[conclusion based on observation]**.  
 
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result3.png" width="500">
 </p>
+
+<p align="center"><b>Figure 7:</b> Frequency Response and Performance Validation</p>  
 
 This result demonstrates **[explain key insights, e.g., frequency response, harmonic content, performance improvement]**. The system meets **[criteria, such as expected response, efficiency, low THD, etc.]**, confirming **[final takeaway]**.  
 
