@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/2c0d62d3-127a-433a-8f17-f1ed0b9d71a2)![image](https://github.com/user-attachments/assets/4bb37355-ce2c-46ce-9796-fbe32e4d6740)# Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management
-
 # Integration of SOC and SOH Estimation for Li-ion Battery Management
 
 ## 📚 Contents
