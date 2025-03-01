@@ -14,9 +14,9 @@
 
 ## 🔍 **Introduction**
 
-Battery Management Systems (BMS) play a crucial role in modern energy storage applications, ensuring the efficiency, safety, and longevity of batteries. Among various BMS functions, **State of Charge (SOC), State of Health (SOH), and Depth of Discharge (DOD)** estimation are key parameters for optimizing battery performance and reliability.
+Battery Management Systems (BMS) play a crucial role in modern energy storage applications, ensuring the efficiency, safety, and longevity of batteries. Among various BMS functions, **State of Charge (SOC) and State of Health (SOH)** estimation are key parameters for optimizing battery performance and reliability.
 
-This project focuses on the **integration of SOC and SOH estimation methods for Li-ion battery management**, enabling enhanced performance monitoring and predictive maintenance.
+This project focuses on the **Integration of SOC and SOH Estimation Methods for Li-ion Battery Management**, enabling enhanced performance monitoring and predictive maintenance.
 
 ---
 
@@ -33,9 +33,11 @@ Where:
 - **Qₘₐₓ (mAh)** = Maximum charge that can be stored
 - **SoC₀ (%)** = Initial SOC of the battery
 
-![Alt Text](https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOC.gif)
+<p align="center">
+  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOC.gif" width="500">
+</p>  
 
-Figure 1: SOC
+<p align="center"><b>Figure 3:</b> State of Charge (SOC)</p>  
 
 If the battery is new:
 \(Q_{max} = C_r, \quad Q_0 = 0.5 Q_{max}\)
@@ -56,9 +58,11 @@ Where:
 - **Qₘₐₓ (mAh)** = Maximum charge available in the battery
 - **Cᵜ** = Rated capacity
 
-![Alt Text](https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOH.gif)
+<p align="center">
+  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOH.gif" width="500">
+</p>  
 
-Figure 1: SOH
+<p align="center"><b>Figure 3:</b> State of Health (SOH)</p>  
 
 A battery with lower SOH will discharge more quickly due to degradation, affecting performance and lifespan.
 
