@@ -34,7 +34,7 @@ Where:
 - **SoC₀ (%)** = Initial SOC of the battery
 
 <p align="center">
-  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOC.gif" width="500">
+  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOC.gif" width="300">
 </p>  
 
 <p align="center"><b>Figure 1:</b> State of Charge (SOC)</p>  
@@ -59,7 +59,7 @@ Where:
 - **Cᵜ** = Rated capacity
 
 <p align="center">
-  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOH.gif" width="500">
+  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOH.gif" width="300">
 </p>  
 
 <p align="center"><b>Figure 2:</b> State of Health (SOH)</p>  
