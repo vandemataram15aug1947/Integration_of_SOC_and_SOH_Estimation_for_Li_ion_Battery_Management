@@ -117,10 +117,12 @@ The hardware setup for this project includes:
 
 ---
 
-## 💻 Software Implementation
+# **Software Implementation**
 
-### **3. Code Implementation**
-Below is the **main loop** for controlling the motor speed using **PWM and PID**:
+## **3. Code Implementation**
+
+### **Main Loop for Motor Speed Control using PWM and PID**
+Below is the main loop implementation for controlling the motor speed using a PID controller and PWM:
 
 ```c
 #include "F28x_Project.h"
@@ -154,50 +156,49 @@ void UpdatePID(void) {
 
     prev_error = error;  // Store previous error
 }
+```
 
 ---
 
-## 🎯 Results
+# **Results and Discussion**
 
 ## **Overview**  
-This repository presents the analyzed results from the system, highlighting key observations and insights derived from the obtained data. The figures below illustrate the performance of the system under test conditions.
+This section presents the analyzed results from the system, highlighting key observations and insights derived from the obtained data. The following figures illustrate the system’s performance under test conditions.
 
-## **Results and Discussion**  
+### **Results and Observations**
+
+#### **Figure 5: System Performance Analysis**  
 
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result1.png" width="500">
-</p>  
-
-<p align="center"><b>Figure 5:</b> Result1</p>  
-
+</p>
 
 This figure represents **[brief explanation of what the figure shows, e.g., voltage waveform, current response, system behavior]**. It is observed that **[key observation: steady-state response, transient behavior, overshoot, etc.]**.  
 
+#### **Figure 6: Stability and Tracking Performance**  
+
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result2.png" width="500">
-</p>  
-
-<p align="center"><b>Figure 6:</b> Result2</p>  
+</p>
 
 In this figure, **[describe the behavior seen in the result]**. The system exhibits **[mention stability, fluctuations, tracking accuracy, etc.]**, indicating **[conclusion based on observation]**.  
 
+#### **Figure 7: Frequency Response and Performance Validation**  
+
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result3.png" width="500">
-</p>  
-
-<p align="center"><b>Figure 7:</b> Result3</p>  
+</p>
 
 This result demonstrates **[explain key insights, e.g., frequency response, harmonic content, performance improvement]**. The system meets **[criteria, such as expected response, efficiency, low THD, etc.]**, confirming **[final takeaway]**.  
 
-## **Conclusion**  
+---
+
+# **Conclusion**
 The results validate the effectiveness of the implemented control strategy. **[Summarize improvements, performance benchmarks, or any necessary optimizations]**. Future work may focus on **[possible refinements, optimizations, or next steps]**.  
 
 ---  
 
-📌 *For more details, refer to the documentation or contact the project contributors.*
-
-## 🚀 **Applications**
-
+# **Applications**  
 This project has applications in:
 
 - **Electric Vehicles (EVs)** 🚗
@@ -208,14 +209,12 @@ This project has applications in:
 
 ---
 
-## 🏁 **Conclusion**
-
-Integrating SOC and SOH estimation into a battery management system significantly enhances performance, efficiency, and safety. This work provides a foundation for real-time battery monitoring and predictive maintenance, which is critical for sustainable energy solutions.
+# **Final Thoughts**
+Integrating SOC and SOH estimation into a battery management system significantly enhances performance, efficiency, and safety. This work provides a foundation for real-time battery monitoring and predictive maintenance, which is critical for sustainable energy solutions.  
 
 ---
 
-## 🔮 **Scope of Future Work**
-
+# **Scope of Future Work**
 - Implementing **Machine Learning (ML) models** for more accurate SOC and SOH prediction.
 - Developing a **real-time monitoring dashboard** for battery status visualization.
 - Extending the methodology to **multi-cell battery packs** for EV applications.
@@ -223,22 +222,25 @@ Integrating SOC and SOH estimation into a battery management system significantl
 
 ---
 
-## 📚 **References**
-
+# **References**
 - Research papers on SOC & SOH estimation methods
 - Manufacturer datasheets for battery specifications
 - IEEE standards for battery management systems
 
 ---
 
-## 🤝 **Contributing**
-
+# **Contributing**
 Contributions are welcome! Feel free to open an **issue** or submit a **pull request**.
 
 ---
 
-## 📜 **License**
-
+# **License**
 This project is licensed under the [MIT License](LICENSE).
+
+
+---
+
+
+
 
 
