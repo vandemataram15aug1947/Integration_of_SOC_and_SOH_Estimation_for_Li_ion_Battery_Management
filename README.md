@@ -119,64 +119,40 @@ The hardware setup for this project includes:
 
 ## 💻 Software Implementation
 
-### **Algorithms**
-#include <Wire.h>
-#include <Adafruit_INA219.h>
-#include <Adafruit_SSD1306.h>
-#include <SD.h>
+### **3. Code Implementation**
+Below is the **main loop** for controlling the motor speed using **PWM and PID**:
 
-Adafruit_INA219 ina219;
-Adafruit_SSD1306 display(128, 64, &Wire);
+```c
+#include "F28x_Project.h"
 
-float SOC = 50.0;       // Initial SOC (%)
-float Q_max_initial = 2600.0; // Rated capacity (mAh)
-float Q_max = Q_max_initial;
-float SOH = 100.0;      // Initial SOH (%)
-unsigned long prevTime = 0;
+// PID Controller Variables
+float Kp = 1.0, Ki = 0.1, Kd = 0.01;
+float setpoint = 1000.0;  // Desired speed in RPM
+float error, prev_error = 0, integral = 0, derivative, duty_cycle;
 
-void setup() {
-  Serial.begin(9600);
-  ina219.begin();
-  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
-  display.clearDisplay();
-  if (!SD.begin(4)) Serial.println("SD Card Error");
+// Function to Read Motor Speed (Example)
+float ReadSpeed(void) {
+    return 900.0;  // Replace with actual encoder reading
 }
 
-void loop() {
-  // Read current and voltage
-  float current_mA = ina219.getCurrent_mA();
-  float voltage_V = ina219.getBusVoltage_V();
+// PID Control Algorithm
+void UpdatePID(void) {
+    float measured_speed = ReadSpeed();
+    error = setpoint - measured_speed;
+    integral += error;
+    derivative = error - prev_error;
 
-  // Update SOC (Coulomb Counting)
-  unsigned long currTime = millis();
-  float deltaTime = (currTime - prevTime) / 3600000.0; // Convert ms to hours
-  SOC -= (current_mA * deltaTime) / Q_max * 100;
-  SOC = constrain(SOC, 0, 100);
+    // Compute control signal
+    duty_cycle = (Kp * error) + (Ki * integral) + (Kd * derivative);
 
-  // Update SOH (Simulated degradation)
-  static int cycleCount = 0;
-  cycleCount++;
-  Q_max = Q_max_initial * (1 - 0.001 * cycleCount); // 0.1% loss per cycle
-  SOH = (Q_max / Q_max_initial) * 100;
+    // Limit duty cycle between 0 and 1000
+    if (duty_cycle > 1000) duty_cycle = 1000;
+    if (duty_cycle < 0) duty_cycle = 0;
 
-  // Display on OLED
-  display.clearDisplay();
-  display.setTextSize(1);
-  display.setCursor(0,0);
-  display.print("SOC: "); display.print(SOC); display.println("%");
-  display.print("SOH: "); display.print(SOH); display.println("%");
-  display.display();
+    // Update PWM duty cycle
+    EPwm1Regs.CMPA.bit.CMPA = duty_cycle;
 
-  // Log to SD Card
-  File dataFile = SD.open("datalog.txt", FILE_WRITE);
-  if (dataFile) {
-    dataFile.print("SOC: "); dataFile.print(SOC);
-    dataFile.print(", SOH: "); dataFile.println(SOH);
-    dataFile.close();
-  }
-
-  prevTime = currTime;
-  delay(1000);
+    prev_error = error;  // Store previous error
 }
 
 ---
