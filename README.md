@@ -800,7 +800,7 @@ This section presents the analyzed results from the system, highlighting key obs
 
 <p align="center"><b>Figure 5:</b> System Performance Analysis</p>  
 
-This figure represents **[brief explanation of what the figure shows, e.g., voltage waveform, current response, system behavior]**. It is observed that **[key observation: steady-state response, transient behavior, overshoot, etc.]**.  
+This figure represents ** The Battery Voltage Waveform, Battery Current Response, Battery Temperature and Also Battery State of Charge (SOC)**.  
 
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result2.png" width="500">
@@ -808,7 +808,7 @@ This figure represents **[brief explanation of what the figure shows, e.g., volt
 
 <p align="center"><b>Figure 6:</b> Stability and Tracking Performance</p>  
 
-In this figure, **[describe the behavior seen in the result]**. The system exhibits **[mention stability, fluctuations, tracking accuracy, etc.]**, indicating **[conclusion based on observation]**.  
+In this figure, ** The Battery Voltage Waveform, Battery Current Response, Battery Temperature, Battery State of Charge (SOC)**.  
 
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result3.png" width="500">
@@ -816,7 +816,7 @@ In this figure, **[describe the behavior seen in the result]**. The system exhib
 
 <p align="center"><b>Figure 7:</b> Frequency Response and Performance Validation</p>  
 
-This result demonstrates **[explain key insights, e.g., frequency response, harmonic content, performance improvement]**. The system meets **[criteria, such as expected response, efficiency, low THD, etc.]**, confirming **[final takeaway]**.  
+This result demonstrates ** The Battery Voltage Waveform, Battery Current Response, Battery Temperature and Also Battery State of Charge (SOC)**.  
 
 ---
 
