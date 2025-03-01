@@ -37,6 +37,10 @@ Where:
 - **Qₘₐₓ (mAh)** = Maximum charge that can be stored
 - **SoC₀ (%)** = Initial SOC of the battery
 
+![Alt Text](path-to-image.png)
+
+Figure 1: This is the caption for the image.
+
 If the battery is new:
 \(Q_{max} = C_r, \quad Q_0 = 0.5 Q_{max}\)
 Where **Cᵜ** is the rated capacity as given by the manufacturer.
@@ -44,11 +48,6 @@ Where **Cᵜ** is the rated capacity as given by the manufacturer.
 If the battery is fully charged:
 \(Q_0 = Q_{max}, \quad SoC_0 = 100\%\)
 
-### 🔻 **Depth of Discharge (DOD)**
-
-The **Depth of Discharge (DoD)** is the percentage of the battery that has been discharged relative to its full capacity:
-
-\(DoD(\%) = 100 - SoC(\%)\)
 
 ### 🏥 **State of Health (SOH)**
 
@@ -60,6 +59,10 @@ Where:
 
 - **Qₘₐₓ (mAh)** = Maximum charge available in the battery
 - **Cᵜ** = Rated capacity
+
+![Alt Text](path-to-image.png)
+
+Figure 1: This is the caption for the image.
 
 A battery with lower SOH will discharge more quickly due to degradation, affecting performance and lifespan.
 
@@ -94,7 +97,18 @@ The hardware setup for this project includes:
 - **Sensors**: To measure charge/discharge cycles
 - **Communication Interface**: For data logging and monitoring
 
+  ![Alt Text](path-to-image.png)
+
+Figure 1: This is the caption for the image.
+
 ---
+
+## 🎯 Results
+
+![Alt Text](path-to-image.png)
+
+Figure 1: This is the caption for the image.
+
 
 ## 🚀 **Applications**
 
