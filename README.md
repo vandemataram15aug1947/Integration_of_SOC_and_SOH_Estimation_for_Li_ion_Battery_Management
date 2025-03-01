@@ -120,24 +120,28 @@ This repository presents the analyzed results from the system, highlighting key 
 
 ## **Results and Discussion**  
 
-### **Figure 1: [Title of Result1]**  
 <p align="center">
-  <img src="[Result1.png](https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result1.png)" alt="Result 1" />
+  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result1.png" width="500">
 </p>  
+
+<p align="center"><b>Figure 3:</b> Result1</p>  
+
 
 This figure represents **[brief explanation of what the figure shows, e.g., voltage waveform, current response, system behavior]**. It is observed that **[key observation: steady-state response, transient behavior, overshoot, etc.]**.  
 
-### **Figure 2: [Title of Result2]**  
 <p align="center">
-  <img src="[Result2.png](https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result2.png)" alt="Result 2" />
+  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result2.png" width="500">
 </p>  
+
+<p align="center"><b>Figure 3:</b> Result2</p>  
 
 In this figure, **[describe the behavior seen in the result]**. The system exhibits **[mention stability, fluctuations, tracking accuracy, etc.]**, indicating **[conclusion based on observation]**.  
 
-### **Figure 3: [Title of Result3]**  
 <p align="center">
-  <img src="[Result3.png](https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result3.png)" alt="Result 3" />
+  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result3.png" width="500">
 </p>  
+
+<p align="center"><b>Figure 3:</b> Result3</p>  
 
 This result demonstrates **[explain key insights, e.g., frequency response, harmonic content, performance improvement]**. The system meets **[criteria, such as expected response, efficiency, low THD, etc.]**, confirming **[final takeaway]**.  
 
