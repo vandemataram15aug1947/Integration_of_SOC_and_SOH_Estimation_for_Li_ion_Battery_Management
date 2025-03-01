@@ -33,6 +33,7 @@ SoC(%) = 100 \times \frac{Q_0 + Q}{Q_{max}}
 ```
 
 where:
+
 - **`Q₀ (mAh)`** = Initial charge of the battery at a given time
 - **`Q (mAh)`** = Charge supplied or delivered (*negative for discharge, positive for charge*)
 - **`Qₘₐₓ (mAh)`** = Maximum charge capacity of the battery
@@ -45,6 +46,7 @@ SOC is usually represented as a percentage (%) ranging from **0% (fully discharg
 ## 📌 Special Cases of SOC Calculation
 
 ### 1️⃣ For a Brand-New Battery
+
 When the battery is new and has not undergone any degradation, the maximum charge capacity (`Qₘₐₓ`) is equal to the rated capacity (`Cᵜ`) as provided by the manufacturer. Additionally, the initial charge of a new battery is typically assumed to be **50%** of its full capacity.
 
 ```math
@@ -52,6 +54,7 @@ Q_{max} = C_r, \quad Q_0 = 0.5 \times Q_{max}
 ```
 
 ### 2️⃣ For a Fully Charged Battery
+
 When the battery is completely charged, its initial charge is equal to its maximum charge capacity, and the SOC is **100%**.
 
 ```math
@@ -62,20 +65,14 @@ Q_0 = Q_{max}, \quad SoC_0 = 100\%
 
 ## 📌 SOC Representation
 
-<p align="center">
-  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOC.gif" width="250">
-</p>
-
-<p align="center"><b>Figure 1:</b> Illustration of Battery State of Charge (SOC)</p>
-
 ---
 
 ## 📌 Importance of SOC Estimation
 
-✔️ **Battery Performance Monitoring:** Helps in tracking available energy.  
-✔️ **Efficient Energy Management:** Essential for optimizing power usage in EVs and energy storage systems.  
-✔️ **Battery Safety & Longevity:** Prevents overcharging and deep discharging, which can damage battery cells.  
-✔️ **Smart Charging Control:** Enables precise charge/discharge cycles to maximize battery efficiency.  
+✔️ **Battery Performance Monitoring:** Helps in tracking available energy.\
+✔️ **Efficient Energy Management:** Essential for optimizing power usage in EVs and energy storage systems.\
+✔️ **Battery Safety & Longevity:** Prevents overcharging and deep discharging, which can damage battery cells.\
+✔️ **Smart Charging Control:** Enables precise charge/discharge cycles to maximize battery efficiency.
 
 ---
 
@@ -92,6 +89,7 @@ SoH(%) = 100 \times \frac{Q_{max}}{C_r}
 ```
 
 where:
+
 - **`Qₘₐₓ (mAh)`** = Maximum charge available in the battery
 - **`Cᵜ`** = Rated capacity of the battery
 
@@ -101,29 +99,27 @@ SOH is usually represented as a percentage (%), where **100% represents a new ba
 
 ## 📌 SOH Representation
 
-<p align="center">
-  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/SOH.gif" width="300">
-</p>
-
-<p align="center"><b>Figure 2:</b> Illustration of Battery State of Health (SOH)</p>
-
 A battery with lower SOH will discharge more quickly due to degradation, affecting performance and lifespan.
 
 The discharge profile of a secondary battery is affected by its state of health. The lower the SOH, the faster the battery discharges, as illustrated in **Figure 3** below:
-
-<p align="center">
-  <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/7ed1b5c38707df8a6707ec54b2db44140c435477/Photos/Charge%20and%20Discharge.gif" width="300">
-</p>
-
-<p align="center"><b>Figure 3:</b> Charge and Discharge</p>
 
 ---
 
 ## 📌 Importance of SOH Estimation
 
-✔️ **Performance Optimization:** Accurate estimation of SOC, SOH, and Depth of Discharge (DOD) enables intelligent battery management systems to optimize charging and discharging strategies, enhancing overall battery performance.  
-✔️ **Safety:** Understanding the current state of a battery is crucial for ensuring safe operation. Overcharging, over-discharging, and prolonged operation at extreme SOC levels can lead to safety hazards, including thermal runaway.  
-✔️ **Energy Efficiency:** In applications such as renewable energy storage and electric vehicles, knowing the SOC and DOD helps in efficient utilization of stored energy, reducing waste and increasing overall energy efficiency.  
+✔️ **Performance Optimization:** Accurate estimation of SOC, SOH, and Depth of Discharge (DOD) enables intelligent battery management systems to optimize charging and discharging strategies, enhancing overall battery performance.\
+✔️ **Safety:** Understanding the current state of a battery is crucial for ensuring safe operation. Overcharging, over-discharging, and prolonged operation at extreme SOC levels can lead to safety hazards, including thermal runaway.\
+✔️ **Energy Efficiency:** In applications such as renewable energy storage and electric vehicles, knowing the SOC and DOD helps in efficient utilization of stored energy, reducing waste and increasing overall energy efficiency.
+
+---
+
+## 📌 Conclusion
+
+The **State of Charge (SOC) and State of Health (SOH)** are fundamental parameters in battery management. Accurately estimating them helps in improving battery life, optimizing performance, and ensuring safe operation.
+
+💡 **Stay tuned for more insights on SOC, SOH, and advanced battery management techniques!** 🚀
+
+
 
 ---
 
