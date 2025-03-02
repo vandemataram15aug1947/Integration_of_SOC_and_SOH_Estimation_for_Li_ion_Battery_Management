@@ -820,20 +820,17 @@ void loop() {
 # **Results and Discussion**
 
 ## **Overview**  
-This section presents the analyzed results from the system, highlighting key observations and insights derived from the obtained data. The following figures illustrate the system’s performance under test conditions.
+This repository contains real-time battery performance data collected using a ThingSpeak-based Battery Monitoring System. The analysis includes key battery parameters such as Voltage, Current, Temperature, State of Charge (SOC), State of Health (SOH), and Depth of Discharge (DOD). The results provide insights into battery stability, tracking performance, and operational health.
 
-### **Results and Observations**
+# 📊 Battery Monitoring System Data (Set 1)
+
+This repository contains data analysis from a ThingSpeak-based battery monitoring system. Below is a detailed breakdown of the recorded battery parameters.
 
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result1.png" width="500">
 </p>
 
 <p align="center"><b>Figure 5:</b> System Performance Analysis</p>  
-
-
-# Battery Monitoring System - Data Analysis
-
-This repository contains data analysis from a ThingSpeak-based battery monitoring system. Below is a detailed breakdown of the recorded battery parameters.
 
 ## 📊 Battery Data Overview
 
@@ -861,14 +858,6 @@ This repository contains data analysis from a ThingSpeak-based battery monitorin
 - **Current variations** indicate varying load conditions.
 - **Temperature anomaly (-100°C)** likely caused by a sensor error.
 - **SOC stability at 100%** suggests minimal discharge or continuous charging.
-
-## 🚀 Next Steps
-- Investigate reasons for **sudden voltage drop and final spike**.
-- Verify **temperature sensor accuracy** due to extreme readings.
-- Monitor current trends for **load fluctuation analysis**.
-
-📌 **For more details or to contribute, feel free to explore the repository!**
-
 
 
 This figure represents ** The Battery Voltage Waveform, Battery Current Response, Battery Temperature and Also Battery State of Charge (SOC)**.  
