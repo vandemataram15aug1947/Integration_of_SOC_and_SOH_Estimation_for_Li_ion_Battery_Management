@@ -110,8 +110,8 @@ The discharge profile of a secondary battery is affected by its state of health.
 ✔️ **Performance Optimization:** Accurate estimation of SOC, SOH, and Depth of Discharge (DOD) enables intelligent battery management systems to optimize charging and discharging strategies, enhancing overall battery performance.\
 ✔️ **Safety:** Understanding the current state of a battery is crucial for ensuring safe operation. Overcharging, over-discharging, and prolonged operation at extreme SOC levels can lead to safety hazards, including thermal runaway.\
 ✔️ **Energy Efficiency:** In applications such as renewable energy storage and electric vehicles, knowing the SOC and DOD helps in efficient utilization of stored energy, reducing waste and increasing overall energy efficiency.
----
 
+---
 ## 🎯 Motivation Behind the Work
 
 - **Performance Optimization**: Accurate estimation of SOC, SOH, and DOD is essential for developing **intelligent battery management systems**. These estimations help in optimizing charge and discharge cycles, ensuring maximum efficiency and prolonged battery life.
