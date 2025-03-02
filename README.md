@@ -830,6 +830,47 @@ This section presents the analyzed results from the system, highlighting key obs
 
 <p align="center"><b>Figure 5:</b> System Performance Analysis</p>  
 
+
+# Battery Monitoring System - Data Analysis
+
+This repository contains data analysis from a ThingSpeak-based battery monitoring system. Below is a detailed breakdown of the recorded battery parameters.
+
+## 📊 Battery Data Overview
+
+### **1️⃣ Battery Voltage**
+- Initial voltage: **~5V**
+- Gradual decrease with fluctuations between **0V and 3V**
+- Sharp drop to nearly **0V**, followed by a sudden spike back to **~5V**
+
+### **2️⃣ Battery Current**
+- Variation between **2.2A and 2.4A**
+- Initial fluctuations, followed by stabilization around **2.3A**
+- Final decline to **2.2A**
+
+### **3️⃣ Battery Temperature**
+- Stable around **0°C**
+- Sudden drop to **-100°C** (likely sensor error)
+- Returns to **0°C** and remains stable
+
+### **4️⃣ Battery State of Charge (SOC)**
+- Remains steady at **100%**
+- Minor deviation observed but returns to full charge
+
+## 🔍 Observations & Insights
+- **Voltage fluctuations** suggest unstable operation, charging cycles, or load changes.
+- **Current variations** indicate varying load conditions.
+- **Temperature anomaly (-100°C)** likely caused by a sensor error.
+- **SOC stability at 100%** suggests minimal discharge or continuous charging.
+
+## 🚀 Next Steps
+- Investigate reasons for **sudden voltage drop and final spike**.
+- Verify **temperature sensor accuracy** due to extreme readings.
+- Monitor current trends for **load fluctuation analysis**.
+
+📌 **For more details or to contribute, feel free to explore the repository!**
+
+
+
 This figure represents ** The Battery Voltage Waveform, Battery Current Response, Battery Temperature and Also Battery State of Charge (SOC)**.  
 
 <p align="center">
@@ -838,6 +879,34 @@ This figure represents ** The Battery Voltage Waveform, Battery Current Response
 
 <p align="center"><b>Figure 6:</b> Stability and Tracking Performance</p>  
 
+# 📊 Battery Monitoring System Data (Set 2)
+
+This repository contains real-time battery performance data, visualized using **ThingSpeak**. Below are the observations and key insights from the recorded data.
+
+## 🔋 Battery Status Charts
+
+### 1️⃣ Battery State of Health (SOH)
+- The **Battery SOH** remains stable at **60%** over the observed period.
+- No significant fluctuations detected, indicating consistent battery health.
+
+### 2️⃣ Battery Depth of Discharge (DOD)
+- The **DOD** remains at **0%**, suggesting no significant discharge events.
+- The battery is maintaining charge effectively.
+
+## 🔢 Real-Time Data Readings
+- **Battery Voltage**: **6.53V** (Latest Reading)
+- **Battery Current**: **2.19mA** (Latest Reading)
+
+## 📌 Key Takeaways
+✅ The battery **health (SOH)** remains steady at **60%**.  
+✅ **DOD remains at 0%**, indicating no significant discharge.  
+✅ The voltage is at **6.53V**, which is a healthy level.  
+✅ The current is at **2.19mA**, aligning with expected behavior.  
+
+---
+📡 **Live Data Monitoring:** Stay updated with real-time battery performance! 🚀
+
+
 In this figure, ** The Battery Voltage Waveform, Battery Current Response, Battery Temperature, Battery State of Charge (SOC)**.  
 
 <p align="center">
@@ -845,6 +914,53 @@ In this figure, ** The Battery Voltage Waveform, Battery Current Response, Batte
 </p>
 
 <p align="center"><b>Figure 7:</b> Frequency Response and Performance Validation</p>  
+
+# 📊 Battery Monitoring System Data (Set 3)
+
+This dataset represents real-time battery performance parameters, visualized using ThingSpeak. Below are the observations and key insights from the recorded data.
+
+## 🔋 Battery Status Charts
+
+### 1️⃣ Battery Temperature (Batt_Temp)
+- **Current Temperature:** 30.50°C  
+- The temperature is within a normal operational range.
+
+### 2️⃣ Battery State of Charge (Batt_SOC)
+- The battery SOC is near **100%**, indicating a fully charged state.  
+- No significant discharge events are detected.
+
+### 3️⃣ Battery State of Health (Batt_SOH)
+- The SOH remains stable at **60%**.  
+- The battery is in a moderately healthy condition.
+
+### 4️⃣ Battery Depth of Discharge (Batt_DOD)
+- The DOD is currently **40%**, indicating moderate battery usage.  
+- No extreme discharging trends are observed.
+
+## 📌 Key Takeaways  
+✅ The battery temperature is stable at **30.50°C**, which is within the normal range.  
+✅ SOC is near **100%**, indicating a fully charged battery.  
+✅ The SOH remains at **60%**, meaning the battery is still in good condition.  
+✅ The DOD is at **40%**, suggesting moderate usage without deep discharge.  
+
+---
+
+### 📷 Visualization  
+Below is a snapshot of the ThingSpeak dashboard displaying real-time battery parameters:
+
+![Battery Monitoring Dashboard](./Result3.png)  
+
+---
+
+### 📌 Repository Information  
+This repository contains:
+- **Real-time battery monitoring data**
+- **ThingSpeak visualization snapshots**
+- **Insights and analysis of battery performance**
+
+Feel free to contribute, suggest improvements, or use this data for further analysis! 🚀
+
+
 
 This result demonstrates ** The Battery Voltage Waveform, Battery Current Response, Battery Temperature and Also Battery State of Charge (SOC)**.  
 
