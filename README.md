@@ -112,7 +112,7 @@ The discharge profile of a secondary battery is affected by its state of health.
 ✔️ **Energy Efficiency:** In applications such as renewable energy storage and electric vehicles, knowing the SOC and DOD helps in efficient utilization of stored energy, reducing waste and increasing overall energy efficiency.
 ---
 
-## 🎯 **Motivation Behind the Work**
+## 🎯 Motivation Behind the Work
 
 - **Performance Optimization**: Accurate estimation of SOC, SOH, and DOD is essential for developing **intelligent battery management systems**. These estimations help in optimizing charge and discharge cycles, ensuring maximum efficiency and prolonged battery life.
 - **Safety**: Monitoring SOC and SOH is critical to **prevent dangerous battery conditions** such as overcharging and deep discharging. Ensuring batteries operate within safe limits reduces risks like **thermal runaway, overheating, and short circuits**.
