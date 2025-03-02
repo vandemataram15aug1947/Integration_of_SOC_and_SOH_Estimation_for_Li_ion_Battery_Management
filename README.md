@@ -832,7 +832,7 @@ This repository contains data analysis from a ThingSpeak-based battery monitorin
 
 <p align="center"><b>Figure 5:</b> System Performance Analysis</p>  
 
-## 📊 Battery Data Overview
+## 🔋 Battery Status Charts
 
 ### **1️⃣ Battery Voltage**
 - Initial voltage: **~5V**
@@ -859,18 +859,15 @@ This repository contains data analysis from a ThingSpeak-based battery monitorin
 - **Temperature anomaly (-100°C)** likely caused by a sensor error.
 - **SOC stability at 100%** suggests minimal discharge or continuous charging.
 
+# 📊 Battery Monitoring System Data (Set 2)
 
-This figure represents ** The Battery Voltage Waveform, Battery Current Response, Battery Temperature and Also Battery State of Charge (SOC)**.  
+This repository contains real-time battery performance data, visualized using **ThingSpeak**. Below are the observations and key insights from the recorded data.
 
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result2.png" width="500">
 </p>
 
 <p align="center"><b>Figure 6:</b> Stability and Tracking Performance</p>  
-
-# 📊 Battery Monitoring System Data (Set 2)
-
-This repository contains real-time battery performance data, visualized using **ThingSpeak**. Below are the observations and key insights from the recorded data.
 
 ## 🔋 Battery Status Charts
 
@@ -893,20 +890,16 @@ This repository contains real-time battery performance data, visualized using **
 ✅ The current is at **2.19mA**, aligning with expected behavior.  
 
 ---
-📡 **Live Data Monitoring:** Stay updated with real-time battery performance! 🚀
 
+# 📊 Battery Monitoring System Data (Set 3)
 
-In this figure, ** The Battery Voltage Waveform, Battery Current Response, Battery Temperature, Battery State of Charge (SOC)**.  
+This dataset represents real-time battery performance parameters, visualized using ThingSpeak. Below are the observations and key insights from the recorded data.
 
 <p align="center">
   <img src="https://github.com/vandemataram15aug1947/Integration_of_SOC_and_SOH_Estimation_for_Li_ion_Battery_Management/blob/6c996bfd7e319a762cda0fc1d7e9c2d328040b2e/Photos/Result3.png" width="500">
 </p>
 
 <p align="center"><b>Figure 7:</b> Frequency Response and Performance Validation</p>  
-
-# 📊 Battery Monitoring System Data (Set 3)
-
-This dataset represents real-time battery performance parameters, visualized using ThingSpeak. Below are the observations and key insights from the recorded data.
 
 ## 🔋 Battery Status Charts
 
@@ -931,27 +924,6 @@ This dataset represents real-time battery performance parameters, visualized usi
 ✅ SOC is near **100%**, indicating a fully charged battery.  
 ✅ The SOH remains at **60%**, meaning the battery is still in good condition.  
 ✅ The DOD is at **40%**, suggesting moderate usage without deep discharge.  
-
----
-
-### 📷 Visualization  
-Below is a snapshot of the ThingSpeak dashboard displaying real-time battery parameters:
-
-![Battery Monitoring Dashboard](./Result3.png)  
-
----
-
-### 📌 Repository Information  
-This repository contains:
-- **Real-time battery monitoring data**
-- **ThingSpeak visualization snapshots**
-- **Insights and analysis of battery performance**
-
-Feel free to contribute, suggest improvements, or use this data for further analysis! 🚀
-
-
-
-This result demonstrates ** The Battery Voltage Waveform, Battery Current Response, Battery Temperature and Also Battery State of Charge (SOC)**.  
 
 ---
 
@@ -1003,7 +975,3 @@ This project is licensed under the [MIT License](LICENSE).
 📌 **Author**: [Vande]  
 📌 **License**: MIT  
 📌 **Contributions**: Open to suggestions and improvements! Feel free to submit PRs or open issues. 🚀
-
-
-
-
