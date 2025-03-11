@@ -973,5 +973,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 📌 **Author**: [Vande]  
-📌 **License**: MIT  
+📌 **License**: GPL-3.0 lisence  
 📌 **Contributions**: Open to suggestions and improvements! Feel free to submit PRs or open issues. 🚀
